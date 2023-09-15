@@ -1,12 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Internship project</title>
+  <title>Pabau Kosovo</title>
   <style>
+    #selectedValues {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    label {
+      color: #333;
+    }
+
+    button {
+      padding: 5px 10px;
+      background-color: #329680;
+      color: white;
+      border: none;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    input[type="checkbox"]:checked + span {
+      color: rgb(61, 148, 87);
+      font-weight: bold;
+    }
   </style>
 </head>
 <body>
-
+  <form id="myForm">
+    <label>
+      <input type="checkbox" value="Internship"> <span>Internship</span>
+    </label>
+    <br>
+    <label>
+      <input type="checkbox" value="Pabau"> <span>Pabau</span>
+    </label>
+    <br>
+    <label>
+      <input type="checkbox" value="Employment"> <span>Employment</span>
+    </label>
+    <br>
+    <label>
+      <input type="checkbox" value="Career"> <span>Career</span>
+    </label>
+    <br><br>
+    <button type="button" id="shuffleButton">Shuffle Values</button>
+    <button type="button" id="changeButton">Change Values</button>
+    <button type="button" id="showButton">Show selected values</button>
+  </form>
   <div id="selectedValues"></div>
 
   <script src="index.js"></script>
