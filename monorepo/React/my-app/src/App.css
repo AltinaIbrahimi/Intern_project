@@ -17,7 +17,7 @@
 .backButton {
   margin-left: 20px;
   text-decoration: none;
-  color: #111;
+  color: #000000;
   padding: 5px 20px;
   border: 2px solid #ddd;
   background-color: #dbdbdb;
@@ -27,7 +27,7 @@
 .consultationSection {
   max-width: 600px;
   margin: 0 auto;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(151, 113, 113, 0.35) 0px 5px 15px;
 }
 .consultationSection p {
   display: flex;
